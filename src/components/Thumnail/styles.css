@@ -1,0 +1,25 @@
+.thumbnail__container{
+    width: 478px;
+    border: 1px solid black;
+    border-top: none;
+    overflow: hidden;
+}
+.thumbnail__header{
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    width: 100%;
+}
+
+.thumbnail__profile-pic{
+    width: 80px;
+    border-radius: 100px;
+    flex: 2;
+}
+
+.thumbnail__profile-name{
+    flex: 8;
+    margin-left: 50px;
+    font-size: 1.3em;
+    color: #4c4c4c;
+}
